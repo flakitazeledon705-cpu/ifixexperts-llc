@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="iFixExperts LLC: teléfonos, reparaciones y accesorios." />
+    <title>iFixExperts LLC | Tecnología en las mejores manos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .product-image.photo { background: #eef2f7; }
+      .product-image.photo img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
+      .photo-gallery { padding-top: 0; }
+      .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+      .gallery-grid figure { margin: 0; min-height: 260px; border: 1px solid #dbe3ef; border-radius: 12px; overflow: hidden; background: #f4f7fb; }
+      .gallery-grid img { display: block; width: 100%; height: 100%; object-fit: contain; }
+      .customer-promise { margin: 18px 0 0; color: #1465ff; font-weight: 700; font-size: 15px; }
+      .catalog-note { margin: -12px 0 22px; color: #53647b; font-size: 15px; }
+      .catalog-note a { color: #1465ff; font-weight: 700; text-decoration: none; }
+      @media (max-width: 800px) { .gallery-grid { grid-template-columns: 1fr; } .gallery-grid figure { height: 360px; } }
+    </style>
+  </head>
+  <body>
+    <div class="notice">Compramos teléfonos bloqueados <span>·</span> Reparamos teléfonos y computadoras <span>·</span> 3 meses de garantía</div>
+    <header>
+      <a class="brand" href="#inicio"><span class="brand-mark">IF</span><span>IFIX<br /><b>EXPERTS LLC</b></span></a>
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <nav>
+        <a href="#tienda">Tienda</a><a href="#reparaciones">Reparaciones</a><a href="#compramos">Compramos</a><a href="#resenas">Reseñas</a>
+      </nav>
+      <a class="header-cta" href="https://wa.me/15618011530?text=Hola%2C%20quiero%20informaci%C3%B3n%20de%20iFixExperts%20LLC" target="_blank" rel="noreferrer">WhatsApp <span>↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">TELÉFONOS · SERVICIO · CONFIANZA</p>
+          <h1>Tu tecnología<br /><em>en buenas manos.</em></h1>
+          <p class="hero-text">Teléfonos, accesorios y reparaciones expertas de celulares, computadoras y laptops. También compramos equipos bloqueados o dañados.</p>
+          <p class="customer-promise">“Quiero lo mejor para mis clientes.”</p>
+          <div class="hero-actions"><a class="button primary" href="#tienda">Ver teléfonos <span>→</span></a><a class="text-link" href="#reparaciones">Conocer servicios <span>↓</span></a></div>
+          <div class="hero-stats"><div><b>3 meses</b><span>de garantía</span></div><div><b>+1,000</b><span>clientes felices</span></div><div><b>Mismo día</b><span>en reparaciones</span></div></div>
+        </div>
+        <div class="phone-stage" aria-label="Teléfonos disponibles">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="floating-pill pill-top">✦ Nuevos ingresos</div>
+          <div class="phone phone-back"><i></i><i></i><i></i></div>
+          <div class="phone phone-front"><div class="island"></div><div class="screen-text"><span>12:48</span><b>Hola.</b><small>La mejor tecnología está aquí.</small></div></div>
+          <div class="floating-pill pill-bottom"><b>✓</b> Garantía incluida</div>
+        </div>
+      </section>
+
+      <section class="trustbar"><span>★ Atención personalizada</span><span>◈ Técnicos expertos</span><span>✓ Garantía en reparaciones</span><span>↗ Envíos disponibles</span></section>
+
+      <section class="catalog section" id="tienda">
+        <div class="section-heading"><div><p class="eyebrow">LA TIENDA</p><h2>Encuentra tu<br />próximo <em>teléfono.</em></h2></div><a class="text-link" href="#contacto">Ver todo el catálogo <span>→</span></a></div>
+        <p class="catalog-note">¿Buscas otro modelo, color o capacidad? Tenemos muchos estilos de teléfonos. <a href="https://wa.me/15618011530?text=Hola%2C%20estoy%20buscando%20un%20tel%C3%A9fono%20espec%C3%ADfico" target="_blank" rel="noreferrer">Pregúntanos por el que deseas →</a></p>
+        <div class="filters"><button class="active" data-filter="all">Todos</button><button data-filter="iphone">iPhone</button><button data-filter="samsung">Samsung</button><button data-filter="google">Google</button><button data-filter="redmi">Redmi</button></div>
+        <div class="products">
+          <article class="product" data-category="samsung"><div class="product-image photo"><span class="tag">DISPONIBLE</span><img src="assets/samsung-galaxy-note-10.png" alt="Samsung Galaxy Note 10 de 256 GB" /></div><div class="product-info"><div><p>Samsung · 256 GB</p><h3>Galaxy Note 10</h3></div><b>$200 USD</b></div><a href="https://wa.me/15618011530?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20Samsung%20Galaxy%20Note%2010" target="_blank" rel="noreferrer" class="product-link">Consultar disponibilidad <span>→</span></a></article>
+          <article class="product" data-category="iphone"><div class="product-image photo"><span class="tag">DISPONIBLE</span><img src="assets/iphone-7.png" alt="iPhone 7 negro de 32 GB" /></div><div class="product-info"><div><p>Apple · 32 GB</p><h3>iPhone 7</h3></div><b>$100 USD</b></div><a href="https://wa.me/15618011530?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20iPhone%207" target="_blank" rel="noreferrer" class="product-link">Consultar disponibilidad <span>→</span></a></article>
+          <article class="product" data-category="google"><div class="product-image photo"><span class="tag">DISPONIBLE</span><img src="assets/google-pixel-7a.png" alt="Google Pixel 7a" /></div><div class="product-info"><div><p>Google</p><h3>Pixel 7a</h3></div><b>$160 USD</b></div><a href="https://wa.me/15618011530?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20Google%20Pixel%207a" target="_blank" rel="noreferrer" class="product-link">Consultar disponibilidad <span>→</span></a></article>
+          <article class="product" data-category="iphone"><div class="product-image photo"><span class="tag">DISPONIBLE</span><img src="assets/iphone-16e-128gb.jpeg" alt="iPhone 16e negro de 128 GB" /></div><div class="product-info"><div><p>Apple · 128 GB</p><h3>iPhone 16e</h3></div><b>$350 USD</b></div><a href="https://wa.me/15618011530?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20iPhone%2016e" target="_blank" rel="noreferrer" class="product-link">Consultar disponibilidad <span>→</span></a></article>
+          <article class="product" data-category="samsung"><div class="product-image photo"><span class="tag">DISPONIBLE</span><img src="assets/samsung-galaxy-s23-plus.png" alt="Samsung Galaxy S23 Plus" /></div><div class="product-info"><div><p>Samsung</p><h3>Galaxy S23 Plus</h3></div><b>$320 USD</b></div><a href="https://wa.me/15618011530?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20Samsung%20Galaxy%20S23%20Plus" target="_blank" rel="noreferrer" class="product-link">Consultar disponibilidad <span>→</span></a></article>
+          <article class="product" data-category="iphone"><div class="product-image photo"><span class="tag">DISPONIBLE</span><img src="assets/iphone-16-128gb.png" alt="iPhone 16 azul de 128 GB" /></div><div class="product-info"><div><p>Apple · 128 GB</p><h3>iPhone 16</h3></div><b>$525 USD</b></div><a href="https://wa.me/15618011530?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20iPhone%2016" target="_blank" rel="noreferrer" class="product-link">Consultar disponibilidad <span>→</span></a></article>
+          <article class="product" data-category="redmi"><div class="product-image photo"><span class="tag">DISPONIBLE</span><img src="assets/redmi-14c-128gb.jpeg" alt="Redmi 14C de 128 GB" /></div><div class="product-info"><div><p>Redmi · 128 GB</p><h3>Redmi 14C</h3></div><b>$145 USD</b></div><a href="https://wa.me/15618011530?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20Redmi%2014C" target="_blank" rel="noreferrer" class="product-link">Consultar disponibilidad <span>→</span></a></article>
+          <article class="product" data-category="iphone"><div class="product-image photo"><span class="tag">DISPONIBLE</span><img src="assets/iphone-17-256gb.jpeg" alt="iPhone 17 de 256 GB" /></div><div class="product-info"><div><p>Apple · 256 GB</p><h3>iPhone 17</h3></div><b>$1,100 USD</b></div><a href="https://wa.me/15618011530?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20iPhone%2017" target="_blank" rel="noreferrer" class="product-link">Consultar disponibilidad <span>→</span></a></article>
+          <article class="product" data-category="iphone"><div class="product-image photo"><span class="tag">DISPONIBLE</span><img src="assets/iphone-13-128gb.png" alt="iPhone 13 rojo de 128 GB" /></div><div class="product-info"><div><p>Apple · 128 GB</p><h3>iPhone 13</h3></div><b>$399 USD</b></div><a href="https://wa.me/15618011530?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20iPhone%2013" target="_blank" rel="noreferrer" class="product-link">Consultar disponibilidad <span>→</span></a></article>
+          <article class="product" data-category="iphone"><div class="product-image photo"><span class="tag">DISPONIBLE</span><img src="assets/iphone-15-pro-max-256gb.png" alt="iPhone 15 Pro Max de 256 GB" /></div><div class="product-info"><div><p>Apple · 256 GB</p><h3>iPhone 15 Pro Max</h3></div><b>$700 USD</b></div><a href="https://wa.me/15618011530?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20iPhone%2015%20Pro%20Max" target="_blank" rel="noreferrer" class="product-link">Consultar disponibilidad <span>→</span></a></article>
+          <article class="product" data-category="iphone"><div class="product-image photo"><span class="tag">DISPONIBLE</span><img src="assets/iphone-11-64gb.jpeg" alt="iPhone 11 lila de 64 GB" /></div><div class="product-info"><div><p>Apple · 64 GB</p><h3>iPhone 11</h3></div><b>$225 USD</b></div><a href="https://wa.me/15618011530?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20iPhone%2011" target="_blank" rel="noreferrer" class="product-link">Consultar disponibilidad <span>→</span></a></article>
+          <article class="product" data-category="iphone"><div class="product-image photo"><span class="tag">DISPONIBLE</span><img src="assets/iphone-14-pro-max-128gb.png" alt="iPhone 14 Pro Max morado de 128 GB" /></div><div class="product-info"><div><p>Apple · 128 GB</p><h3>iPhone 14 Pro Max</h3></div><b>$580 USD</b></div><a href="https://wa.me/15618011530?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20iPhone%2014%20Pro%20Max" target="_blank" rel="noreferrer" class="product-link">Consultar disponibilidad <span>→</span></a></article>
+        </div>
+      </section>
+
+      <section class="photo-gallery section" aria-label="Galería de equipos disponibles">
+        <div class="section-heading"><div><p class="eyebrow">GALERÍA DE EQUIPOS</p><h2>Conoce nuestros<br /><em>teléfonos disponibles.</em></h2></div></div>
+        <div class="gallery-grid">
+          <figure><img src="assets/samsung-galaxy-note-10.png" alt="Samsung Galaxy Note 10" /></figure>
+          <figure><img src="assets/iphone-7.png" alt="iPhone 7 negro" /></figure>
+          <figure><img src="assets/google-pixel-7a.png" alt="Google Pixel 7a" /></figure>
+          <figure><img src="assets/iphone-16e-128gb.jpeg" alt="iPhone 16e de 128 GB" /></figure>
+          <figure><img src="assets/iphone-16e-detail.jpeg" alt="Vista adicional de iPhone negro" /></figure>
+          <figure><img src="assets/iphone-pro-model-to-confirm.jpeg" alt="iPhone azul en caja" /></figure>
+          <figure><img src="assets/samsung-galaxy-s23-plus.png" alt="Samsung Galaxy S23 Plus" /></figure>
+          <figure><img src="assets/iphone-16-128gb.png" alt="iPhone 16 azul" /></figure>
+          <figure><img src="assets/redmi-14c-128gb.jpeg" alt="Redmi 14C" /></figure>
+          <figure><img src="assets/iphone-17-256gb.jpeg" alt="iPhone 17" /></figure>
+          <figure><img src="assets/iphone-13-128gb.png" alt="iPhone 13 rojo" /></figure>
+          <figure><img src="assets/iphone-15-pro-max-256gb.png" alt="iPhone 15 Pro Max" /></figure>
+          <figure><img src="assets/iphone-11-64gb.jpeg" alt="iPhone 11 lila" /></figure>
+          <figure><img src="assets/iphone-14-pro-max-128gb.png" alt="iPhone 14 Pro Max morado" /></figure>
+        </div>
+      </section>
+
+      <section class="services section" id="reparaciones">
+        <div class="service-visual"><div class="repair-card"><span>REPARACIÓN<br />EXPERTA</span><b>01</b></div><div class="tool tool-one">✦</div><div class="tool tool-two">⌁</div><div class="service-glow"></div></div>
+        <div class="service-copy"><p class="eyebrow">REPARAMOS LO QUE IMPORTA</p><h2>Celulares, computadoras<br />y <em>laptops.</em></h2><p>Diagnóstico claro, piezas de calidad y manos expertas. Reparamos celulares, computadoras y laptops con la atención que merecen.</p><div class="service-list"><div><span>01</span><b>Pantallas y baterías</b></div><div><span>02</span><b>Puertos de carga y cámaras</b></div><div><span>03</span><b>Software y recuperación</b></div><div><span>04</span><b>Computadoras y laptops</b></div></div><a class="button primary" href="#contacto">Solicitar reparación <span>→</span></a></div>
+      </section>
+
+      <section class="buyback" id="compramos"><div><p class="eyebrow">¿TIENES UN EQUIPO QUE YA NO USAS?</p><h2>Compramos teléfonos<br /><em>bloqueados o dañados.</em></h2><p>Tráelo para una evaluación honesta. Compramos equipos bloqueados, con cuenta, dañados o que ya no uses. Te hacemos una oferta y pagamos al instante.</p><a class="button light" href="#contacto">Quiero vender mi teléfono <span>→</span></a></div><div class="buyback-art"><div class="cash">$</div><div class="trade-phone"><i></i><i></i></div><span class="stamp">PAGO<br />RÁPIDO</span></div></section>
+
+      <section class="promo section"><div class="promo-banner"><div><p class="eyebrow">PROMOCIÓN ESPECIAL</p><h2>Un detalle <em>extra</em><br />para tu equipo.</h2><p>Con cada reparación, recibe un protector de pantalla o case gratis, según disponibilidad.</p></div><div class="promo-perks"><div><b>GRATIS</b><span>Protector o case</span></div><div><b>3 MESES</b><span>Garantía en tu reparación</span></div></div></div></section>
+
+      <section class="reviews section" id="resenas"><div class="section-heading"><div><p class="eyebrow">HISTORIAS REALES</p><h2>Ellos ya confiaron<br />en <em>nosotros.</em></h2></div><div class="review-arrows"><button>←</button><button>→</button></div></div><div class="review-grid"><article><div class="stars">★★★★★</div><blockquote>“Mi iPhone quedó como nuevo y me atendieron súper rápido. El trato fue excelente.”</blockquote><p>— María G. <span>· Reparación de pantalla</span></p></article><article><div class="stars">★★★★★</div><blockquote>“Me ayudaron a elegir el teléfono ideal y el precio fue muy bueno. Totalmente recomendados.”</blockquote><p>— Carlos R. <span>· Compra de equipo</span></p></article><article><div class="stars">★★★★★</div><blockquote>“Llevé mi laptop pensando que ya no tenía arreglo. La recuperaron en un día.”</blockquote><p>— Andrea M. <span>· Servicio de laptop</span></p></article></div></section>
+
+      <section class="contact" id="contacto"><div><p class="eyebrow">HABLEMOS</p><h2>¿Listo para<br /><em>conectarte?</em></h2><p>Escríbenos. Estamos listos para ayudarte a encontrar, reparar o vender tu equipo.</p><a class="button whatsapp" href="https://wa.me/15618011530?text=Hola%2C%20quiero%20informaci%C3%B3n%20de%20iFixExperts%20LLC" target="_blank" rel="noreferrer">◉ Escríbenos por WhatsApp <span>↗</span></a></div><div class="contact-details"><div><span>WHATSAPP</span><b>+1 (561) 801-1530</b></div><div><span>VISÍTANOS</span><b>5100 Lake Worth Rd<br />Greenacres, FL</b></div><div><span>ATENCIÓN A MENSAJES</span><b>Todos los días: 10am — 1am</b></div><div><span>FACEBOOK</span><b>Ariana Zeledon</b></div></div></section>
+    </main>
+    <footer><a class="brand" href="#inicio"><span class="brand-mark">IF</span><span>IFIX<br /><b>EXPERTS LLC</b></span></a><p>© 2026 iFixExperts LLC. Tecnología en las mejores manos.</p><a href="#inicio">Volver arriba ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
